@@ -1,11 +1,24 @@
 # SIGHT
 
-### Usage
+### Usage (from Python Shell)
 
 ```
-python <source_path>/SIGHT.py <source_path>/SIGHT/image/N.png <source_path>/SIGHT/data/SIGHT_KnowledgeBase.txt
+python <project-path>/SIGHT.py <project-path>/SIGHT/image/N.png <project-path>/SIGHT/data/SIGHT_KnowledgeBase.txt
 ```
 
+### Usage (Automated)
+
+```bash
+sh SIGHT_daemon.sh project-path
+```
+
+*Some pre-requisites (using bash method):*
+* The image of the screen shot should be stored as .png (under `<project-path>/image/`)
+* The screen shot images to get placed in folder that has to be polled (passed to the bash script) by default 
+
+**Please Note**: 
+* Keyboard Interrupt is needed to kill the bash job
+* Manual cleanup is needed for the images used (under `<project-path>/image/`)
 
 #### Packages Required
 
