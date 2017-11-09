@@ -1,7 +1,7 @@
 # SIGHT
 Smart and Interactive Glossary-based Helper Tool
 
-### Usage (from Python Shell)
+### Usage (Interactive)
 
 ```
 python <project-path>/SIGHT.py <project-path>/image/N.png <project-path>/data/SIGHT_KnowledgeBase.txt
