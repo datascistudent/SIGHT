@@ -1,4 +1,5 @@
 # SIGHT
+Smart and Interactive Glossary-based Helper Tool
 
 ### Usage (from Python Shell)
 
